@@ -1,3 +1,28 @@
+header {
+	color: orange;
+	background-color: powderblue;
+	font-family: avenir;
+}
+
+footer {
+	color: orange;
+	background-color: powderblue;
+	font-family: avenir;
+}
+
 h1 {
-	color: blue;
+	color: pink;
+	font-family: avenir;
+}
+
+#contact {
+	color: orange;
+	background-color: powderblue;
+	font-family: avenir;
+}
+
+.profile {
+	color: purple;
+	background-color: powderblue;
+	font-family: avenir;
 }

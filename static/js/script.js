@@ -1,12 +1,3 @@
-import os
-// function validateForm() {
-//     var x = document.forms["myForm"]["fname"].value;
-//     if (x == "") {
-//         alert("Name must be filled out");
-//         return false;
-//     }
-// }
-
 var f = document.getElementById("contact");
 f.addEventListener("submit", function(event) {
     var n = f.elements.namedItem("name").value;
@@ -43,7 +34,7 @@ f.addEventListener("submit", function(event) {
         mailgun.messages().send(data, function (error, body) {
           console.log(body);
         });
-        e.innerHTML = 'Hi ' + n + ', your message has been sent!';
+        // e.innerHTML = 'Hi ' + n + ', your message has been sent!';
     }
     event.preventDefault();
 });

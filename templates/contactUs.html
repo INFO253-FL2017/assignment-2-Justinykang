@@ -15,11 +15,17 @@
 		<h2>Contact Us</h2>
 
 		<div id="error">
-			<!-- Where the calculator answer will be displayed -->
+			<!-- Where the error messages will be displayed. -->
 		</div>
 		<br/>
 
-		<form id= "contact">
+		<ul>
+			{{ error }}
+		</ul>
+
+		<br/>
+
+		<form id="contact" action="/contact" method="post">
 			Name: <br>
 			<input type="text" name="name", id="name"><br>
 			Subject: <br>
